@@ -1,3 +1,10 @@
+Built on Centos 6.6 - 2.6.32-504.16.2.el6.x86_64
+
+Make gives warnings but compiles all modules and can successfully load into latest kernel.
+
+Changed default CONFIG to only build modules for SCO Openserver support.
+
+
 1. Examine and modify "CONFIG" if required.
 2. Run "make".
 3. Run "abi_ldr" to load compiled modules.
