@@ -1,0 +1,17 @@
+ /lib/modules/2.6.32-504.16.2.el6.x86_64/build M=/home/lewisst/bench/ibcs-3.9.2 modules
+make[1]: Entering directory `/usr/src/kernels/2.6.32-504.16.2.el6.x86_64'
+  CC [M]  /home/lewisst/bench/ibcs-3.9.2/coff/binfmt-coff.o
+  LD [M]  /home/lewisst/bench/ibcs-3.9.2/coff/binfmt_coff.o
+  CC [M]  /home/lewisst/bench/ibcs-3.9.2/cxenix/sysent.o
+  CC [M]  /home/lewisst/bench/ibcs-3.9.2/cxenix/misc.o
+  CC [M]  /home/lewisst/bench/ibcs-3.9.2/cxenix/stubs.o
+  CC [M]  /home/lewisst/bench/ibcs-3.9.2/cxenix/signal.o
+/home/lewisst/bench/ibcs-3.9.2/cxenix/signal.c: In function ‘xnx_sigaction’:
+/home/lewisst/bench/ibcs-3.9.2/cxenix/signal.c:55: error: ‘__NR_rt_sigaction’ undeclared (first use in this function)
+/home/lewisst/bench/ibcs-3.9.2/cxenix/signal.c:55: error: (Each undeclared identifier is reported only once
+/home/lewisst/bench/ibcs-3.9.2/cxenix/signal.c:55: error: for each function it appears in.)
+make[3]: *** [/home/lewisst/bench/ibcs-3.9.2/cxenix/signal.o] Error 1
+make[2]: *** [/home/lewisst/bench/ibcs-3.9.2/cxenix] Error 2
+make[1]: *** [_module_/home/lewisst/bench/ibcs-3.9.2] Error 2
+make[1]: Leaving directory `/usr/src/kernels/2.6.32-504.16.2.el6.x86_64'
+make: *** [all] Error 2

@@ -34,16 +34,17 @@
 #include <linux/personality.h>
 #include <linux/sched.h>
 #include <linux/slab.h>
+#include <linux/unistd.h>
 #include <asm/uaccess.h>
 #include <asm/desc.h>
 #include <asm/msr.h>
-
+/*
 #ifdef	CONFIG_XEN
 #include <asm/xen/hypervisor.h>
 #include <xen/page.h>
 #include <xen/events.h>
 #endif
-
+*/
 #include "../include/abi_reg.h"
 #include "../include/util/errno.h"
 #include "../include/util/trace.h"

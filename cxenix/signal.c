@@ -4,6 +4,7 @@
 #include <linux/kernel.h>
 #include <linux/personality.h>
 #include <linux/sched.h>
+#include <linux/unistd.h>
 #include <asm/uaccess.h>
 
 #include "../include/util/trace.h"
